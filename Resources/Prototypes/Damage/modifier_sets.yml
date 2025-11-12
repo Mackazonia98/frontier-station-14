@@ -315,3 +315,9 @@
   id: ManifestedSpirit
   coefficients:
     Holy: 2
+
+# Holy vulnerability for cultists and physical evils
+- type: damageModifierSet
+  id: Unholy
+  coefficients:
+    Holy: 1
