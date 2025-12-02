@@ -1,0 +1,40 @@
+# Author Info
+# GitHub: Mackazonia98
+# Discord: Cap'n Clutch
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Firefighter
+  parent: BaseVessel
+  name: Firefighter
+  description: An emergency-response vessel designed for rapid repairs and overcoming the hottest situations.
+  price: 28000
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/firefighter.yml
+  guidebookPage: ShipyardFirefighter
+  class:
+  - Engineering
+  engine:
+  - Bananium
+
+- type: gameMap
+  id: Firefighter
+  mapName: 'Firefighter'
+  mapPath: /Maps/_NF/Shuttles/firefighter.yml
+  minPlayers: 0
+  stations:
+    Firefighter:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Firefighter {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
