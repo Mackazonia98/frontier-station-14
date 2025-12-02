@@ -8,7 +8,7 @@
   id: Firefighter
   parent: BaseVessel
   name: Firefighter
-  description: An emergency-response vessel designed for rapid repairs and overcoming the hottest situations.
+  description: An emergency-response vessel designed for delivering rapid repairs and relief from searing ship fires.
   price: 28000
   category: Medium
   group: Shipyard
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Firefighter
-  mapName: 'Firefighter'
+  mapName: 'AC Firefighter'
   mapPath: /Maps/_NF/Shuttles/firefighter.yml
   minPlayers: 0
   stations:
