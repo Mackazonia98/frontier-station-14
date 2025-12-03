@@ -3,13 +3,13 @@
 # Discord: Cap'n Clutch
 
 # Shuttle Notes:
-#
+# Engineering ship with atmos flavoring. Fast and focused for saving other ships from disaster
 - type: vessel
   id: Firefighter
   parent: BaseVessel
   name: Firefighter
-  description: An emergency-response vessel designed for delivering rapid repairs and relief from searing ship fires.
-  price: 28000
+  description: "An emergency-response vessel designed for delivering rapid repairs and relief from searing shuttle fires."
+  price: 26000 #22555~, 1.15 25938
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/firefighter.yml
