@@ -7,9 +7,9 @@
 - type: vessel
   id: Firefighter
   parent: BaseVessel
-  name: Firefighter
+  name: AC Firefighter
   description: "An emergency-response vessel designed for delivering rapid repairs and relief from searing shuttle fires."
-  price: 26000 #22555~, 1.15 25938
+  price: 36500 #32600~, 1.12 36512
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/firefighter.yml
